@@ -9,7 +9,7 @@ double calculator::Calculate(double x, char oper, double y)
 		case '-':
 			return x - y;
 		case '*':
-			return x * y;
+			return x * y * 1;
 		case '/':
 			return x / y;
 		default:
